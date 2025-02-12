@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Valentine's Day Proposal - The Office</title>\
+    <style>\
+        body \{\
+            background-color: #f4f4f9;\
+            font-family: 'Arial', sans-serif;\
+            text-align: center;\
+            color: #333;\
+        \}\
+        .header \{\
+            font-size: 36px;\
+            margin-top: 50px;\
+        \}\
+        .popup \{\
+            display: none;\
+            background-color: white;\
+            border: 2px solid #f07d58;\
+            padding: 20px;\
+            width: 300px;\
+            margin: 50px auto;\
+        \}\
+        .heart \{\
+            color: red;\
+            font-size: 40px;\
+        \}\
+        .button \{\
+            background-color: #f07d58;\
+            color: white;\
+            border: none;\
+            padding: 10px 20px;\
+            cursor: pointer;\
+            font-size: 18px;\
+        \}\
+        .button:hover \{\
+            background-color: #d44f3f;\
+        \}\
+        .quote \{\
+            font-size: 20px;\
+            margin: 20px;\
+            font-style: italic;\
+        \}\
+        .quiz \{\
+            margin-top: 30px;\
+        \}\
+    </style>\
+</head>\
+<body>\
+    <div class="header">\
+        A *The Office* Valentine's Day Proposal\
+    </div>\
+\
+    <div id="animation">\
+        <img src="https://via.placeholder.com/150?text=Jim+Looking+at+Camera" alt="Jim Halpert" />\
+        <p>Jim says: "Hey, J. I was wondering if you'd be my Valentine..."</p>\
+    </div>\
+\
+    <div class="quote">\
+        <p>"I\'92m not superstitious, but I am a little stitious... that you're my perfect Valentine." - Michael Scott</p>\
+    </div>\
+\
+    <button class="button" onclick="showPopup()">Click me to find out!</button>\
+\
+    <div id="popup" class="popup">\
+        <p>Will you be my Valentine, J? <span class="heart">\uc0\u10084 \u65039 </span></p>\
+        <button class="button" onclick="acceptValentine()">Yes, of course!</button>\
+        <button class="button" onclick="declineValentine()">Let me think about it...</button>\
+    </div>\
+\
+    <div class="quiz">\
+        <h3>Office Quiz: Are we a match?</h3>\
+        <p>Question 1: Who is Jim's favorite character? <br>\
+            <button class="button" onclick="alert('Correct!')">Pam Beesly</button> \
+            <button class="button" onclick="alert('Wrong! Try again')">Dwight Schrute</button>\
+        </p>\
+    </div>\
+\
+    <script>\
+        function showPopup() \{\
+            document.getElementById('popup').style.display = 'block';\
+        \}\
+\
+        function acceptValentine() \{\
+            alert('Yay! Michael Scott would be proud!');\
+        \}\
+\
+        function declineValentine() \{\
+            alert('I guess you just made it awkward... Just like Michael Scott would!');\
+        \}\
+    </script>\
+</body>\
+</html>\
+}
